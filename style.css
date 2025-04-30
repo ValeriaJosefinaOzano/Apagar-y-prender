@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.5s;
+    font-family: sans-serif;
+  }
+
+  .luz-encendida {
+    background-color: #f2f2f2;
+  }
+
+  .luz-apagada {
+    background-color: #1c1c1c;
+  }
+
+  button {
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: #888; 
+    color: white;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+
+  button:hover {
+    transform: scale(1.05);
+  }
